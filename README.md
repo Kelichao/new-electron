@@ -26,14 +26,15 @@ $ npm run package
 - 安装参考[热心网友教程](https://www.cnblogs.com/kakayang/p/9559777.html)
 
 ![image](https://user-images.githubusercontent.com/18028533/56497449-1b28b900-6530-11e9-84fe-e92c9383f603.png)
+
 ## 打开之后，选择新建，一路确定，选择好以下两个步骤，然后一路默认确定
 - 步骤一：
+
 ![image](https://user-images.githubusercontent.com/18028533/56497510-5fb45480-6530-11e9-9a67-6fb446c072b9.png)
 
 - 步骤二：
 
 ![image](https://user-images.githubusercontent.com/18028533/56497569-ac982b00-6530-11e9-8988-f8bfca5545d4.png)
-
 
 ## getmac插件报错原因
 - 之前由于getmac安装使用了`npm install getmac`导致移动目录之后，依赖丢失。
