@@ -45,8 +45,11 @@ $ npm run package
 
 ## electron依赖下载不下来报错的问题，切换源
 1. 切换npm源，由于访问npm官方源不太稳定，因此推荐将官方源修改为国内的镜像
+
 `npm config set registry https://registry.npm.taobao.org`
+
 2. Electron 安装, 切换Electron Download的源
+
 `npm config set electron_mirror="https://npm.taobao.org/mirrors/electron/"`
 
 ## getmac插件报错原因
