@@ -54,14 +54,13 @@ $ npm run package
 
 `npm config set registry https://registry.npm.taobao.org`
 
-- 注：使用cnpm这种方式，有时候会造成路径过长，导致报错等问题。
 
 2. Electron 安装, 切换Electron Download的源
 
 `npm config set electron_mirror="https://npm.taobao.org/mirrors/electron/"`
 
 ### 2.getmac插件报错原因
-- getmac这个模块一定要`npm install`来安装，否则会报路径过长的错误。
+- getmac这个模块一定要`npm install`来安装，否则会报路径过长的错误。注：使用cnpm这种方式，有时候会造成路径过长，导致报错等问题。
 - 之前由于getmac安装使用了`npm install getmac`导致移动目录之后，依赖丢失。
 - getmac需要用`npm install getmac --save`方式，放进依赖。
 
