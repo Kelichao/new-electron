@@ -1,3 +1,6 @@
+# 前言
+- 以下electron打包方式集成了获取mac地址，以及一键安装包的步骤教程，在window安装方便。
+
 # 一、环境搭建
 - 首先确保拥有node,npm环境
 ```
@@ -50,6 +53,8 @@ $ npm run package
 1. 切换npm源，由于访问npm官方源不太稳定，因此推荐将官方源修改为国内的镜像
 
 `npm config set registry https://registry.npm.taobao.org`
+
+- 注：使用cnpm这种方式，有时候会造成路径过长，导致报错等问题。
 
 2. Electron 安装, 切换Electron Download的源
 
