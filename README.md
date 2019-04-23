@@ -44,6 +44,7 @@ $ npm run package
 ![image](https://user-images.githubusercontent.com/18028533/56498083-d0f50700-6532-11e9-949e-afad74c19114.png)
 
 ## electron依赖下载不下来报错的问题，切换源
+- 例如 electron-v5.00.0-win32-x64.zip下载失败
 1. 切换npm源，由于访问npm官方源不太稳定，因此推荐将官方源修改为国内的镜像
 
 `npm config set registry https://registry.npm.taobao.org`
