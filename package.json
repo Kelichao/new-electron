@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "electron-packager": "^13.1.1",
     "electron-builder": "^20.39.0",
     "getmac": "^1.4.6"
   },
