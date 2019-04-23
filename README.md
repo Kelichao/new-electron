@@ -43,6 +43,12 @@ $ npm run package
 
 ![image](https://user-images.githubusercontent.com/18028533/56498083-d0f50700-6532-11e9-949e-afad74c19114.png)
 
+## electron依赖下载不下来报错的问题，切换源
+1. 切换npm源，由于访问npm官方源不太稳定，因此推荐将官方源修改为国内的镜像
+`npm config set registry https://registry.npm.taobao.org`
+2. Electron 安装, 切换Electron Download的源
+`npm config set electron_mirror="https://npm.taobao.org/mirrors/electron/"`
+
 ## getmac插件报错原因
 - 之前由于getmac安装使用了`npm install getmac`导致移动目录之后，依赖丢失。
 - getmac需要用`npm install getmac --save`方式，放进依赖。
