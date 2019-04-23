@@ -1,4 +1,4 @@
-# 环境搭建
+﻿# 环境搭建
 - 首先确保拥有node,npm环境
 ```
 # 全局安装electron
@@ -44,6 +44,7 @@ $ npm run package
 ![image](https://user-images.githubusercontent.com/18028533/56498083-d0f50700-6532-11e9-949e-afad74c19114.png)
 
 ## getmac插件报错原因
+- getmac这个模块一定要`npm install`来安装，否则会报路径过长的错误。
 - 之前由于getmac安装使用了`npm install getmac`导致移动目录之后，依赖丢失。
 - getmac需要用`npm install getmac --save`方式，放进依赖。
 
