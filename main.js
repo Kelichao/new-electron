@@ -6,7 +6,7 @@ const {BrowserWindow} = electron
 
 const {ipcMain} = require('electron')
 const getmac = require('getmac');
-
+const Menu = electron.Menu
 let mac = '';
 
 getmac.getMac(function(err,macAddress){
@@ -28,6 +28,9 @@ ipcMain.on('asynchronous-message', (event, arg) => {
 })
 
 function createWindow () {
+
+  // 隐藏菜单栏
+  Menu.setApplicationMenu(null)
   // 创建浏览器窗口。
   mainWindow = new BrowserWindow({
     width: 1000, 
